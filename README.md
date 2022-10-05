@@ -1,1 +1,1 @@
-"# computer_vision_course_project" 
+# Here are the computer vision course projects
