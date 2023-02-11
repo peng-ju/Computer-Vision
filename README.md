@@ -9,12 +9,12 @@ This repository contains the course projects from [ECE661 Computer Vision](https
 > Removed the image distortion with three different methods.
 > - Method 1: directly calculate the homography with 'undistorted scene'.
 > - Method 2: first remove projective distortion by a homography that brings vanishing lines to the line at infinity. Then, remove affine distortion by a homography that restores the angle between two orthogonal lines.
-> - Method 3: Calculate the dual degenerate conic and find the homography that maps it back to $C^{*}_{\infty}$
+> - Method 3: Calculate the dual degenerate conic and find the homography that maps it back to $C^{*}_{\infty}$.
 
+### Key_point_search_and_build_correspondance
+> Implemented Haris Corner detection algorithm to detect interest points for a pair of images from the same scene.
+> Built correspondance between interest points with SURF and SIFT.
 
-# These jupyter notebooks are the computer vision related projects
+### 
 
-# These projects achieved good performance without using OpenCV.
-
-# Projects include camera calibration, image classification, image mosaicing etc.
 
