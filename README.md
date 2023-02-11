@@ -12,9 +12,13 @@ This repository contains the course projects from [ECE661 Computer Vision](https
 > - Method 3: Calculate the dual degenerate conic and find the homography that maps it back to $C^{*}_{\infty}$.
 
 ### Key_point_search_and_build_correspondance
-> Implemented Haris Corner detection algorithm to detect interest points for a pair of images from the same scene.
-> Built correspondance between interest points with SURF and SIFT.
+> - Implemented Haris Corner detection algorithm to detect interest points for a pair of images from the same scene.
+> - Establish correspondance between interest points with SSD and NCC.  
+> - Interest point detection and correspondance searching with SURF and SIFT algorithm from OpenCV.
 
-### 
-
-
+### image_mosaicing
+> stitched together five overlapping views/images of the same scene.
+> - Find corresponding interests points betweeen adjacent images with SURF algorithm from OpenCV.
+> - Reject outliers with RANSAC algorithm.
+> - Estimate the homography and refine the homography with nonlinear least-squares approach (Levenberg-Marquardt algorithm). 
+> - Use pairwise homography to project the five images to a common scene.
