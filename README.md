@@ -35,3 +35,12 @@ This repository contains the course projects from [ECE661 Computer Vision](https
 > - Implemented a SVM multi-class classifier based on the feature vectors.
 > - Achieved an accuracy of 0.975 with the channel normalization based SVM multi-class classifier.
 
+### Camera calibration with the Zhang's algorithm
+> Implemented camera calibration with the Zhang's algorithm based on 40 images of the checkerboard.
+> - Extracted edges using the Canny Edege detector. 
+> - Fitted straight lines to the edges with the Hough transform. 
+> - Obtained the corner of the checkerboard from the intersection of the lines and label them.
+> - Applued the Zhang's algorithm to get the intrinsic camera matrix ($K$) and external cammera calibration matrices. 
+> - Measured the reprojection error for each point with the Euclidean Distance.
+
+### 
