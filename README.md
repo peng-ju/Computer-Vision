@@ -51,4 +51,9 @@ This repository contains the course projects from [ECE661 Computer Vision](https
 > - Applied 3D projective reconstruction based on the correpondances.
 > - Caculated the disparity maps for two rectified images using the Census transform. Achieved a accuracy of 0.76 compared to the ground truth.
 
-### 
+### Face Recognition and Object Detection
+> Implemented face recognition based on dimensionality reduction algorithms and built Cascaded Adaboost Classifier for object detection.
+> - Computed the covariance matrix for the face images vectors. 
+> - Obtained low-dimensional representation for the face images with PCA (Principal component analysis) and LDA (Linear Discriminant Analysis).
+> - Built a NN (Nearest Neighbor) classification agorithm. Achieved a classification accuracy of 1.
+> - Built a Cascaded Adaboost Classifier for object detection based on the Viola and Jones approach. The aim is to achieve the arbitrary low false positive rate.
