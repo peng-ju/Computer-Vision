@@ -30,5 +30,8 @@ This repository contains the course projects from [ECE661 Computer Vision](https
 > - Extracted the contour of the foreground based on the result of image segmentation. Applied dilation and erosion to optomize the result. 
 
 ### Weather image classification 
-> Built a classifier to determine the weather condition for 1000 images.
-> - 
+> Built a texture-based image classification pipeline to determine the weather condition for 1000 images.
+> - Extracted texture descriptors with three difference methods: channel normalization (per-channel mean and variance), LBP (Local Binary Pattern) and Gram Matrix.
+> - Implemented a SVM multi-class classifier based on the feature vectors.
+> - Achieved an accuracy of 0.975 with the channel normalization based SVM multi-class classifier.
+
