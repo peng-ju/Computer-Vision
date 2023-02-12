@@ -1,7 +1,7 @@
 # Computer Vision
 This repository contains the course projects from [ECE661 Computer Vision](https://engineering.purdue.edu/kak/computervision/) taught by [Prof. Avinash Kak](https://engineering.purdue.edu/kak/). Instead of simply using OpenCV, we implemented the key ideas in computer vision with our own code. Below are my code for these projects.   
 
-### Homography with four point
+### Homography with four point [[code]](https://github.com/peng-ju/Computer-Vision/blob/main/Homography_with_four_point.ipynb)
 > Computed the homography between two images based on manually selected four pairs of interest points.
 > Apply affine transformation to an image.
 
