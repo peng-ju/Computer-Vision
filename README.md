@@ -3,7 +3,7 @@ This repository contains the course projects from [ECE661 Computer Vision](https
 
 ### Homography with four point [[code]](https://github.com/peng-ju/Computer-Vision/blob/main/Homography_with_four_point.ipynb)
 > Computed the homography between two images based on manually selected four pairs of interest points.
-> Apply affine transformation to an image.
+> Appled affine transformation to an image.
 
 ### Remove Perspective and Affine distortion [[code]](https://github.com/peng-ju/Computer-Vision/blob/main/Remove_Perspective_and_Affine_distortion.ipynb)
 > Removed the image distortion with three different methods.
