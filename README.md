@@ -43,4 +43,12 @@ This repository contains the course projects from [ECE661 Computer Vision](https
 > - Applued the Zhang's algorithm to get the intrinsic camera matrix ($K$) and external cammera calibration matrices. 
 > - Measured the reprojection error for each point with the Euclidean Distance.
 
+### Projective Stereo Reconstruction and Dense Stereo Matching
+> Created a 3D reconstruction from a pair of images and applied Dense Stereo Matching for two rectified images.
+> - Implemented image rectification by calculating the fundamental matrix, projection matrix and the homography matrix.
+> - Run the implementation program of Loop and Zhang algorithm for image rectification. 
+> - Constructed a set of interest point correspondences between the two images with Canny edge detector and SSD.
+> - Applied 3D projective reconstruction based on the correpondances.
+> - Caculated the disparity maps for two rectified images using the Census transform. Achieved a accuracy of 0.76 compared to the ground truth.
+
 ### 
