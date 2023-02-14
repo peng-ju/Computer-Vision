@@ -1,7 +1,7 @@
 # Computer Vision
 This repository contains the course projects from [ECE661 Computer Vision](https://engineering.purdue.edu/kak/computervision/) taught by [Prof. Avinash Kak](https://engineering.purdue.edu/kak/). Instead of simply using OpenCV, we implemented the key ideas in computer vision with our own code. Below are my code for these projects.   
 
-### Homography with four point [[code]](https://github.com/peng-ju/Computer-Vision/blob/main/Homography_with_four_point.ipynb)
+### Homography with four pairs of interest points [[code]](https://github.com/peng-ju/Computer-Vision/blob/main/Homography_with_four_point.ipynb)
 > - Computed the homography between two images based on manually selected four pairs of interest points.
 > - Appled affine transformation to an image.
 
@@ -11,7 +11,7 @@ This repository contains the course projects from [ECE661 Computer Vision](https
 > - Method 2: first remove projective distortion by a homography that brings vanishing lines to the line at infinity. Then, remove affine distortion by a homography that restores the angle between two orthogonal lines.
 > - Method 3: Calculate the dual degenerate conic and find the homography that maps it back to $C^{*}_{\infty}$.
 
-### Key point search and build correspondance [[code]](https://github.com/peng-ju/Computer-Vision/blob/main/Key_point_search_and_build_correspondance.ipynb)
+### Interest point search and build correspondance [[code]](https://github.com/peng-ju/Computer-Vision/blob/main/Key_point_search_and_build_correspondance.ipynb)
 > - Implemented Haris Corner detection algorithm to detect interest points for a pair of images from the same scene.
 > - Established correspondance between interest points with SSD and NCC.  
 > - Interest point detection and correspondance searching with SURF and SIFT algorithm from OpenCV.
@@ -29,7 +29,7 @@ This repository contains the course projects from [ECE661 Computer Vision](https
 > - Applied texture-based image segmentation for the same image set. Take the mean value and variance of a pixel window as the texture descriptor.
 > - Extracted the contour of the foreground based on the result of image segmentation. Applied dilation and erosion to optomize the result. 
 
-### Weather image classification [[code]](https://github.com/peng-ju/Computer-Vision/blob/main/Weather_image_classification.ipynb) 
+### Texture-based weather image classification [[code]](https://github.com/peng-ju/Computer-Vision/blob/main/Weather_image_classification.ipynb) 
 > Built a texture-based image classification pipeline to determine the weather condition for 1000 images.
 > - Extracted texture descriptors with three difference methods: channel normalization (per-channel mean and variance), LBP (Local Binary Pattern) and Gram Matrix.
 > - Implemented a SVM multi-class classifier based on the feature vectors.
